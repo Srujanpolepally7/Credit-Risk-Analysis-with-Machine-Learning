@@ -1,10 +1,6 @@
 # Credit Risk Analysis with Machine Learning
 
-
-
 ### Predicting the risk of client default using XGBoost, LightGBM and CatBoost
-
-
 
 ## About the Data
 
@@ -17,8 +13,11 @@ Let's import the libraries we'll need for the analysis and take a first look at 
 ## Steps Involved:-
 
 1: About the Data
+
 2: Data Cleaning
+
 3: Exploratory Data Analysis
+
 4: Machine Learning Models
 
 
@@ -49,9 +48,13 @@ Let's start by making some adjustments to the XGBoost estimator. XGBoost is know
 For the XGBoost model, we'll tune the following hyperparameters, according to the official documentation:
 
 . n_estimators - The number of trees in the model.
+
 . max_depth - Maximum depth of a tree.
+
 . min_child_weight - Minimum sum of instance weight needed in a child.
+
 . gamma - Minimum loss reduction required to make a further partition on a leaf node of the tree.
+
 . learning_rate - Step size shrinkage used in the update to prevents overfitting.
 
 
@@ -59,15 +62,20 @@ For the XGBoost model, we'll tune the following hyperparameters, according to th
 Now, turning to the LightGBM model, another tree-based learning algorithm, we are going to tune the following hyperparameters, referring to the documentation:
 
 . max_depth - Maximum depth of a tree.
+
 . learning_rate - Shrinkage rate.
+
 . num_leaves - Max number of leaves in one tree.
+
 . min_data_in_leaf - Minimal number of data in one leaf.
 
 ## CatBoost
 Lastly, we're going to search over hyperparameter values for CatBoost, our third gradient boosting algorithm. The following hyperparameters will be tuned, according to the documentation:
 
 . depth - Depth of the tree.
+
 . learning_rate - As we already know, the learning rate.
+
 . l2_leaf_reg - Coefficient at the L2 regularization term of the cost function.
 
 ## Conclusion
