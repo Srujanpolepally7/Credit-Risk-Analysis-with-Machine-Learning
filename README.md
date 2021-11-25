@@ -82,6 +82,10 @@ Now, turning to the LightGBM model, another tree-based learning algorithm, we ar
 
 . min_data_in_leaf - Minimal number of data in one leaf.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68669675/99927593-783bb080-2d0b-11eb-8dda-30917e42c517.png"><img src="https://user-images.githubusercontent.com/68669675/99927595-78d44700-2d0b-11eb-891f-2dd0b308f312.png"><img src="https://user-images.githubusercontent.com/68669675/99927597-796cdd80-2d0b-11eb-81f0-d71ecd340724.png">
+</p>
+
 ## CatBoost
 Lastly, we're going to search over hyperparameter values for CatBoost, our third gradient boosting algorithm. The following hyperparameters will be tuned, according to the documentation:
 
