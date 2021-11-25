@@ -70,6 +70,8 @@ For the XGBoost model, we'll tune the following hyperparameters, according to th
 
 . learning_rate - Step size shrinkage used in the update to prevents overfitting.
 
+## Confusion Matrix of XGBOoost:-
+
 ![XGB](https://user-images.githubusercontent.com/77172036/143421023-67ce78d0-4bab-41e8-ae79-fe177100134d.png)
 
 ## LightGBM
@@ -83,6 +85,8 @@ Now, turning to the LightGBM model, another tree-based learning algorithm, we ar
 
 . min_data_in_leaf - Minimal number of data in one leaf.
 
+## Confusion Matrix of LightGBM Model:-
+
 ![LGB](https://user-images.githubusercontent.com/77172036/143421360-0d139ea3-a755-497a-8106-6c853ff4b3a4.png)
 
 ## CatBoost
@@ -93,6 +97,9 @@ Lastly, we're going to search over hyperparameter values for CatBoost, our third
 . learning_rate - As we already know, the learning rate.
 
 . l2_leaf_reg - Coefficient at the L2 regularization term of the cost function.
+
+## Confusion Matrix of CATBoost Model:-
+![CAT](https://user-images.githubusercontent.com/77172036/143421593-294f4a00-cde1-434b-af84-32edef04d214.png)
 
 ## Conclusion
 The main objective of this article was to build a machine learning algorithm that would be able to identify potential defaulters and therefore reduce company loss. The best model possible would be the one that could minimize false negatives, identifying all defaulters among the client base, while also minimizing false positives, preventing clients to be wrongly classified as defaulters.
