@@ -70,6 +70,7 @@ For the XGBoost model, we'll tune the following hyperparameters, according to th
 
 . learning_rate - Step size shrinkage used in the update to prevents overfitting.
 
+![XGB](https://user-images.githubusercontent.com/77172036/143421023-67ce78d0-4bab-41e8-ae79-fe177100134d.png)
 
 ## LightGBM
 Now, turning to the LightGBM model, another tree-based learning algorithm, we are going to tune the following hyperparameters, referring to the documentation:
